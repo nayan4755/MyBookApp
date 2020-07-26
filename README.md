@@ -1,47 +1,15 @@
 Book Buying and Selling App : BookLenDen
 ===================================
 
-This app displays a list of pets and their related data that the user inputs.
-Used in a Udacity course in the Android Basics Nanodegree by Google.
+This app takes input from user as book details and then shows these details.
+Next, the added books will be removed form the list when they are bought.
+The user signin and signup are handled using Google Firebase database.
 
-Pre-requisites
---------------
+The singup required authentication. Email based authentication is used.
+The signin step will not start untill verified.
 
-- Android SDK v24
-- Android Build Tools v23.0.3
-- Android Support Repository v24.1.1
+The book data being added and deleted in the app are static and are maintained using sqlite database.
+The app works with a buyer and seller view since you can add book in the list for selling and buy them from the list.
 
-Getting Started
----------------
-
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
-Support
--------
-
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
-
-License
--------
-
-Copyright 2016 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+You can update the code with changes starting from changing the firebase database of your own project.
+Also there is still many scope of improvement staring from authentication and signup to using realtime database for books.
