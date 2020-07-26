@@ -1,4 +1,4 @@
-Pets App
+Book Buying and Selling App : BookLenDen
 ===================================
 
 This app displays a list of pets and their related data that the user inputs.
