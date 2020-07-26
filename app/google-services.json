@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "95730664421",
+    "firebase_url": "https://book-len-den.firebaseio.com",
+    "project_id": "book-len-den",
+    "storage_bucket": "book-len-den.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95730664421:android:f7e3510700c738d4",
+        "android_client_info": {
+          "package_name": "com.example.android.books"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCknUxLmZnvCC4MaIhfUy-9AzOarfxYcE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95730664421-t9h03508o8ru93qrs1cmqnrclie7jnkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
